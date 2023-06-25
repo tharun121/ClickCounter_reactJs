@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f5f8;
+  font-family: 'Roboto';
+  padding: 12px;
+}
+
+.heading {
+  font-size: 35px;
+  color: #2d3a35;
+}
+
+.count {
+  color: #c20a72;
+}
+
+.button {
+  height: 38px;
+  width: 128px;
+  background-color: #007bff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #ffffff;
+}
